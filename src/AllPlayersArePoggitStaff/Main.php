@@ -24,3 +24,4 @@ class Main extends PluginBase implements Listener{
   $this->getLogger()->notice("AntiPoggitStaffs Plugin Conflict So Can't Work");
 }
 }
+}
