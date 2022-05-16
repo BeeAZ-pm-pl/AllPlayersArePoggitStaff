@@ -9,7 +9,7 @@ use pocketmine\event\player\PlayerJoinEvent;
 
 class Main extends PluginBase implements Listener{
 
- private $conflict = "AntiPoggitStaffs";
+ public $conflict = "AntiPoggitStaffs";
 
  public function onEnable(): void{
   $this->getServer()->getPluginManager()->registerEvents($this, $this);
